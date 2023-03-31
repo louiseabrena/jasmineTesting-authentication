@@ -1,0 +1,21 @@
+.userAuthentic {
+  background-color: #f0f0e1;
+  font-family: monospace;
+  padding: 20px;
+  border: dashed 2px;
+}
+
+fieldset {
+  width: 50%;
+}
+
+#output {
+  display: none;
+  margin-top: 15px;
+  padding: 30px;
+  border-color: black;
+  border: solid 2px;
+}
+#userAuthentic__username {
+  color: #c1c1c1;
+}

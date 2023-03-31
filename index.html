@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="assign1.js"></script>
+    <script src="src/md5Encrypt.js"></script>
+    <script src="src/checkLogin.js"></script>
+    <script src="lib/jasmine-4.5.0/md5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Login Page</title>
+  </head>
+  <!------------------- LOG IN FORM --------------------------->
+  <body>
+    <header>
+      <h1>Login Page</h1>
+    </header>
+    <section class="userAuthentic">
+      <form name="userAuthentic__form" action="#" method="get">
+        <fieldset class id="form__user-authentic">
+          <legend>User Authentication</legend>
+          <p>
+            <label for="userAuthentic__username">Username: </label>
+            <input
+              type="text"
+              id="userAuthentic__username"
+              name="userAuthentic__name"
+            />
+          </p>
+          <p>
+            <label for="userAuthentic__password">Password: </label>
+            <input
+              type="password"
+              id="userAuthentic__password"
+              name="userAuthentic__pass"
+            />
+          </p>
+          <p>
+            <input type="submit" value="Log in" />
+          </p>
+        </fieldset>
+      </form>
+    </section>
+    <!------------------- OUTPUT RESULTS --------------------------->
+    <section id="output">
+      <p>Username: <span id="output__un_"></span></p>
+      <p>Password: <span id="output__pw_result"></span></p>
+    </section>
+  </body>
+</html>
